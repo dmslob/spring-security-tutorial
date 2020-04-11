@@ -1,0 +1,21 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout}"lang="en">
+<head>
+    <title>Home</title>
+</head>
+<body>
+
+    <div layout:fragment="content">
+        <div class="jumbotron main-content">
+            <h1>Welcome to Hilton Hotel Admin</h1>
+        </div>
+        <div class="container">
+            <h3>What do you want to do?</h3>
+            <ul>
+                <li><a th:href="@{/guests}">View Guests</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
